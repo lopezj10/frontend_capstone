@@ -1,0 +1,132 @@
+* {
+    margin: 0 5px 0 5px;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.navlogo {
+    width: 200px;
+    position: relative;
+    top: 40px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+.navbutton {
+    background-color: #fff;
+    border: 2px solid #2291fbff;
+    border-radius: 25px;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+}
+
+.navbutton:hover {
+    background-color: #2291fbff;
+}
+
+.home-text {
+    margin: 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.navitem {
+    padding: 10px 30px;
+    font-size: 15px;
+}
+
+.graident-text {
+    background: -webkit-linear-gradient(0.50turn, #a476faff, #1d85edff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.lorem {
+    color: gray;
+}
+
+.getstartedbutton {
+    background-color: #2291fbff;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.signupform {
+    position: absolute;
+    left: 35%;
+}
+
+.signupform2 {
+    background-color: #f5f5f5ff;
+    width: 400px;
+    text-align: center;
+    padding: 20px;
+}
+
+.loginlink {
+    color: #2291fbff;
+    text-decoration: none;
+}
+
+label {
+    font-weight: bold;
+    position: relative;
+    left: -40px;
+}
+
+select {
+    width: 130px;
+}
+
+.submitformbutton {
+    background-color: #2291fbff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.resetbutton {
+    background-color: #dd3546ff;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.doctorseachbar {
+    width: 400px;
+    height: 40px;
+    font-size: 20px;
+    margin-left: 550px;
+}
+
+.center {
+    margin-left: 550px;
+}

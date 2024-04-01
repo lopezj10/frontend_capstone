@@ -1,0 +1,23 @@
+table, h1 {
+    font-family: Arial, sans-serif;
+    border-collapse: collapse;
+}
+
+table {
+    border: 1px solid lightgray;
+}
+
+th {
+    background-color: #f5f5f5ff;
+}
+
+button {
+    background-color: #2290ffff;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+td {
+    width: 150px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Sign up</title>
+    <link rel="stylesheet" href="Sign_up.css">
+    <script src="Sign_up.js"></script>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <img src="../images/logo.png" alt="logo" class="navlogo">
+            <ul class="navbar">
+                <a href="../Landing_Page/Landing_Page.html"><li class="navitem">Home</li></a>
+                <a href="../Sign-up/Sign_up.html"><li class="navitem">Sign Up</li></a>
+                <a href="../Login/Login.html"><li class="navitem">Log in</li></a>
+                <a href="../FindDoctorSearch/FindDoctorSearch.html"><li class="navitem">Appointments</li></a>
+                <a href="../Sign-up/Sign_up.html"><li><button class="navbutton">Sign Up</button></li></a>
+                <a href="../Login/Login.html"><li><button class="navbutton">Log In</button></li></a>
+            </ul>
+        </nav>
+
+        <div class="signupform">
+            <form class="signupform2">
+                <h1>Sign Up</h1>
+                <br>
+                <p>Already a member?<a class="loginlink">Login</a></p>
+                <br>
+                <div>
+                    <label for="role">Role</label>
+                    <br>
+                    <select>
+                        <option value="0">Select role</option>
+                        <option value="1">Role 1</option>
+                        <option value="2">Role 2</option>
+                    </select>
+                </div>
+                <br><br>
+                <div class="leftalign">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="name" id="name" name="name" placeholder="Enter your name">
+                </div>
+                <br><br>
+                <div>
+                    <label for="name">Phone</label>
+                    <br>
+                    <input type="phone" id="phone" name="phone" placeholder="Enter your phone number">
+                </div>
+                <br><br>
+                <div>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" id="email" name="email" placeholder="Enter your email">
+                </div>
+                <br><br>
+                <button class="submitformbutton">Submit</button>
+                <br><br>
+                <button class="resetbutton">Reset</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
